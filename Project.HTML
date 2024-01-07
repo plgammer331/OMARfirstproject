@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,      initial-scale=1.0"
+    />
+    <title>Omar</title>
+    <link rel="stylesheet" href="Project.css" />
+    <link rel="stylesheet" href="experiments.js" />
+  </head>
+  <!--BEGINING OF BODY-->
+  <body>
+    <script src="experiments.js"></script>
+    <p>ROCK PAPER SCISSORS</p>
+
+    <button
+      class="Rock"
+      onclick="
+      const Randomnumber=Math.random();
+      console.log(Randomnumber)
+      let computerMove=' '
+
+    if(Randomnumber>=0 && Randomnumber<1/3){
+      computerMove='Rock'
+    }else if(Randomnumber>=1/3 && Randomnumber<2/3 ){
+      computerMove='Paper'
+    }else if(Randomnumber>=2/3 && Randomnumber<1
+    ){computerMove='Scissors'}
+    console.log(computerMove)
+    let result= ' ';
+
+    if(computerMove ==='Rock'){
+      result='TIE.'
+    }else if(computerMove==='Paper'){
+      result='YOU LOST'
+    }else if(computerMove==='Scissors'){
+      result='YOU WIN'
+    }
+   alert('You picked Rock.Computer picked  '+computerMove+' .'+result)
+    "
+    >
+      ROCK
+    </button>
+
+    <button
+      class="Paper"
+      onclick="
+    
+    const Randomnumber2=Math.random();
+    console.log(Randomnumber2)
+      let computerMove2=' '
+
+    if(Randomnumber2>=0 && Randomnumber2<1/3){
+      computerMove2='Rock'
+
+    }
+    else if(Randomnumber2>=1/3 && Randomnumber2<2/3 ){
+      computerMove2='Paper'
+    }else if(Randomnumber2>=2/3 && Randomnumber2<1
+    ){computerMove2='Scissors'}
+    console.log(computerMove2)
+    let result2= ' ';
+
+    if(computerMove2 ==='Rock'){
+      result2='YOU WIN.'
+    }else if(computerMove2==='Paper'){
+      result2='TIE'
+    }else if(computerMove2==='Scissors'){
+      result2='YOU LOST'
+    }
+   alert('You picked Paper.Computer picked  '+computerMove2+' .'+result2)
+    
+    
+    
+    
+    "
+    >
+      PAPER
+    </button>
+    <button
+      class="Scissors"
+      onclick="
+    const Randomnumber3=Math.random();
+    console.log(Randomnumber3)
+      let computerMove3=' '
+
+    if(Randomnumber3>=0 && Randomnumber3<1/3){
+      computerMove3='Rock'
+    }
+    else if(Randomnumber3>=1/3 && Randomnumber3<2/3 ){
+      computerMove3='Paper'
+    }else if(Randomnumber3>=2/3 && Randomnumber3<1
+    ){computerMove3='Scissors'}
+    console.log(computerMove3)
+    let result3= ' ';
+
+    if(computerMove3 ==='Rock'){
+      result3='YOU LOST.'
+    }else if(computerMove3==='Paper'){
+      result3='YOU WIN'
+    }else if(computerMove3==='Scissors'){
+      result3='TIE'
+    }
+   alert('You picked Scissors.Computer picked  '+computerMove3+' .'+result3)
+    
+    
+    "
+    >
+      SCISSORS
+    </button>
+    <p class="Info">
+      NOTE: The color indicates who beats who.For example when hovering above
+      Rock the color turns to blue showing that paper beats rock.
+    </p>
+  </body>
+</html>

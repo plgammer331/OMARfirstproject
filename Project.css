@@ -1,0 +1,47 @@
+body {
+  background-color: #031e32;
+}
+button {
+  width: 200px;
+  height: 65px;
+  border-radius: 60px;
+  border: none;
+}
+.Rock {
+  background-color: green;
+  margin-top: 150px;
+  margin-left: 390px;
+  margin-right: 60px;
+  transition: background-color 2s;
+}
+.Rock:hover {
+  background-color: darkblue;
+}
+.Paper {
+  background-color: darkblue;
+  transition: background-color 2s;
+}
+.Paper:hover {
+  background-color: red;
+}
+.Scissors {
+  background-color: red;
+  margin-left: 60px;
+  transition: background-color 2s;
+}
+.Scissors:hover {
+  background-color: green;
+}
+p {
+  margin-left: 390px;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+}
+.Info {
+  font-size: 20px;
+  margin-left: 0px;
+  width: 800px;
+}
